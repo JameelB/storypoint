@@ -1,0 +1,53 @@
+.inline-edit-container {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.inline-edit-form {
+  display: flex;
+
+  .control-label {
+    font-size: 1.6em;
+  }
+
+  .inline-edit-value {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    white-space: normal;
+    font-size: 1.5em;
+  }
+
+  .glyphicon-pencil {
+    padding-left: 10px;
+  }
+
+  div {
+    display: flex;
+    flex: 1;
+
+    .inline-edit-form-group {
+      display: flex;
+    
+      .clear-input-btn {
+        background-image: none;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        margin-left: -45px;
+        margin-right: 10px;
+      }
+
+      .form-control {
+        flex: 1;
+        margin-left: 10px;
+        margin-right: 8px;
+      }
+
+      Button {
+        margin-right: 6px;
+      }
+    }
+  }
+}
